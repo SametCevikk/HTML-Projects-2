@@ -36,6 +36,7 @@ main {
   margin: 2rem;
   padding:2rem;
   display:flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 3rem;
 }

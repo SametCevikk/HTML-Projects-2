@@ -1,0 +1,116 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #2e2e2e;
+  scroll-behavior: smooth;
+}
+
+
+header {
+  background-color: rgba(0,0,0,0.6);
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+
+nav ul li a {
+  color: wheat;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+#home {
+  background-image: url("images/nazım_hikmet_2.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+  text-shadow: 1px 1px 5px black;
+}
+
+.home blockquote {
+  font-size: 1.5rem;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  color: wheat;
+}
+
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: wheat;
+}
+
+.biography-section {
+  padding: 2rem;
+  background-color: #2e2e2e;
+  color: white;
+  text-align: center;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.bio-card {
+  background-color: #444;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: left;
+}
+
+.bio-card h3 {
+  margin-bottom: 0.5rem;
+  color: wheat;
+}
+
+
+#books {
+    padding: 2rem;
+    background-color: #555;
+    display: flex;
+}
+
+#books ul{
+   margin: 3rem;
+}
+
+#books img{
+   margin-left: 400px;
+}
+
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1c1c1c;
+  font-size: 0.9rem;
+}
